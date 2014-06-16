@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>calculadoraExamen</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>calculadora</display-name>
+    <servlet-name>calculadora</servlet-name>
+    <servlet-class>calculadora</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>calculadora</servlet-name>
+    <url-pattern>/calculadora</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Calculadora</display-name>
+    <servlet-name>Calculadora</servlet-name>
+    <servlet-class>Calculadora</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Calculadora</servlet-name>
+    <url-pattern>/Calculadora</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Respuesta</display-name>
+    <servlet-name>Respuesta</servlet-name>
+    <servlet-class>Respuesta</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Respuesta</servlet-name>
+    <url-pattern>/Respuesta</url-pattern>
+  </servlet-mapping>
+</web-app>
